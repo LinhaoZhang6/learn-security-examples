@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+The vulnerability in the insecure code stems from directly using user-provided values in the query,
+exposing it to NoSQL injection attacks. The secure version mitigates this by using a try-catch block
+to handle errors, preventing attackers from crafting malicious queries.
+
+To prevent such attacks, additional security measures include input validation, parameterized
+queries, output encoding, authentication and authorization, rate limiting, and logging.

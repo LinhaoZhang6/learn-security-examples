@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+The insecure code allows anyone to access messages without authentication, opening the door to
+repudiation. The secure version requires authentication before accessing messages, making it harder
+to deny actions.
+
+Additional security measures include robust authentication, access control, message integrity
+checks, audit logging, and error handling to prevent such attacks.

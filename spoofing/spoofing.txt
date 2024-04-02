@@ -1,1 +1,4 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+1. When the cookie contains sensitive info, make sure it can't be changed programmatically
+2. Make sure cookie can only be sent with the original server

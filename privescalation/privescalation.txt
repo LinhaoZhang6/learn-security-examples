@@ -1,0 +1,7 @@
+The insecure code lacks proper authentication and authorization, allowing any user to update roles,
+which poses a privilege escalation risk. The secure version implements session-based authentication
+to ensure users are logged in and have admin privileges before allowing role updates.
+
+Additional security measures to prevent such attacks include role-based access control, input
+validation, robust error handling, HTTPS usage, content security policy, and CSRF protection. These
+measures enhance overall security and protect against various types of attacks.

@@ -1,0 +1,3 @@
+The secure version ensures that any input string passed to it is properly escaped
+to prevent HTML injection attacks and to ensure that the string will be displayed
+correctly when rendered as HTML content.
